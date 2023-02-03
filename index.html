@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ms-FORTUNE</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/jquery.transit.min.js"></script>
+    
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="home-bg home-bg3"><img src="./img/home-bg3.svg" alt="bg"></div>
+        <button id="begin-btn" class="start-btn begin">Let's begin</button> 
+        <!-- home -->
+        <section class="home">
+            <h1 class="homeTitle">Ms-FORTUNE</h1>
+            <div class="home-bg home-bg1"><img src="./img/home-bg.png" alt="bg"></div>
+            <div class="home-bg home-bg2"><img src="./img/home-bg2.svg" alt="bg"></div>
+            <button id="start-btn" class="start-btn">Know your destiny</button>
+            <p class="homep">if you dare...</p>
+        </section>
+
+        <!-- Intro -->
+        <section class="intro">
+            <p class="intro-title">Introduction</p>
+            <div class="moon"><img src="./img/moon.svg" alt="moon"></div>
+            <div class="intro-txt">
+                <p class="showTxt showTxt1">Welcome visitor, I am Ms. Fortune.<br/>
+                Let me help you guide your decisions and grant you a mystical response for the questions you seek.</p><br/>
+                <p class="showTxt showTxt2">Firstly, ask yourself the question you would like me to discover and I will present to you a path. Speak once for the question you ask and only once.</p><br/>
+                <p class="showTxt showTxt3">It’s up to you if you decide to take the advice but the path may give you the guidance that you are searching for.</p>
+            </div>
+            
+            <img class="intro-bg intro-left" src="./img/Clouds1.svg" alt="clouds">
+            <img class="intro-bg intro-right" src="./img/Clouds2.svg" alt="clouds">
+        </section>
+
+        <!-- section1 -->
+        <section class="section1">
+            <div class="container">
+                <h2 class="guide-txt guide-txt1">Choose left or right</h2>
+                <div class="hands">
+                    <img class="hand hand-right active" src="./img/hand-right.svg" alt="hand">
+                    <img class="hand hand-left" src="./img/hand-left.svg" alt="hand">
+                </div>
+
+                <div class="hands2">
+                    <img class="hand active" src="./img/hand-1.svg" alt="hand">
+                    <img class="hand hand-line" src="./img/hand-2.svg" alt="hand">
+                    <p class="arrow arrow1">Heart</p>
+                    <p class="arrow arrow2">Life</p>
+                    <p class="arrow arrow3">Healtht</p>
+                </div>
+                <ul class="select-menu-wrapper">
+                    <li id="left-btn" class="select-menu">left</li>
+                    <li id="right-btn" class="select-menu active">right</li>
+                </ul>
+
+                <ul class="select-menu-wrapper2">
+                    <li id="heart-btn" class="select-menu heart active">Heart</li>
+                    <li id="life-btn" class="select-menu life">Life</li>
+                    <li id="health-btn" class="select-menu health">Health</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- section2 -->
+        <section class="section2">
+            <div class="container">
+                <h2 class="guide-txt">Pick your destiny</h2>
+                <div class="rotateBox">
+                    <ul class="card-container">
+                        <li class="card card1"><img src="/img/card1.svg" alt="card"></li>
+                        <li class="card card2"><img src="/img/card2.svg" alt="card"></li>
+                        <li class="card card3"><img src="/img/card3.svg" alt="card"></li>
+                        <li class="card card4"><img src="/img/card4.svg" alt="card"></li>
+                        <li class="card card5"><img src="/img/card5.svg" alt="card"></li>
+                    </ul>
+                </div>
+                <div class="select-card">
+                    <img class="blank" src="/img/blank.svg" alt="card">
+                    <img class="selected-card" src="/img/card1.svg" alt="card">
+                    <img class="selected-card" src="/img/card2.svg" alt="card">
+                    <img class="selected-card" src="/img/card3.svg" alt="card">
+                    <img class="selected-card" src="/img/card4.svg" alt="card">
+                    <img class="selected-card" src="/img/card5.svg" alt="card">
+                    <h3 class="card-txt">Choose a card</h3>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- section3 -->
+        <section class="section3">
+            <div class="container">
+                <h2 class="guide-txt">Think of a question<br/> you want to know</h2>
+                <div class="fingerprint">
+                    <img class="thumb" src="/img/thumb.svg" alt="thumb">
+                    <img class="thumb-bg" src="/img/thumb-bg.svg" alt="thumb">
+                    <span class="gage"></span>
+                </div>
+                <h3 class="fingerprint-txt">Hold your finger in the centre and I’ll read your destiny.</h3>
+            </div>
+        </section>
+
+        <!-- results -->
+        <section class="result-section">
+            <div class="result-wrapper">
+                <main class="result result1">
+                    <img class="result-moon" src="/img/result-moon.svg" alt="moon">
+                    <p>Your fortune</p>
+                    <h1 class="result-title">The Butterfly Sword</h1>
+                    <div class="result-imgBox"><img src="/img/result1.svg" alt="resultImg"></div>
+
+                    <div class="result-txt-wrapper">
+                        <p>Answer to your question:</p>
+                        <h2>It’s possible, only if you believe so.</h2>
+                        <p>About</p>
+                        <h2>The Butterfly Sword presents itself when you are experiencing becoming cemented in parts of your life.</h2>
+                        <h2>This could come in a form of blocked creative energy, an unfulfilling work situation, or unconstructive repetitive thoughts.</h2>
+                        <h2>The energy of the card is to portray a feeling of becoming “stuck” , however you will have a shift of mental energy which may overcome your obstacles if you decide to make that push in your actions.</h2>
+                    </div>
+                </main>
+                <main class="result result2">
+                    <img class="result-moon" src="/img/result-moon.svg" alt="moon">
+                    <p>>Your fortune</p>
+                    <h1 class="result-title">The Tree of Justice</h1>
+                    <div class="result-imgBox"><img src="/img/result2.svg" alt="resultImg"></div>
+
+                    <div class="result-txt-wrapper">
+                        <p>Answer to your question:</p>
+                        <h2>Possibly.</h2>
+                        <p>About</p>
+                        <h2>The Tree of Justice portrays a balance in your judgement, where things could equal out and harmonise your life.</h2>
+                        <h2>For good or for worse, you are in the centre - it may not be the best but it certainly won’t be the worst. You have options and you only need to seize them.</h2>
+                    </div> 
+                </main>
+                <main class="result result3">
+                    <img class="result-moon" src="/img/result-moon.svg" alt="moon">
+                    <p>Your fortune</p>
+                    <h1 class="result-title">The Mystic Ten Cats</h1>
+                    <div class="result-imgBox"><img src="/img/result3.svg" alt="resultImg"></div>
+
+                    <div class="result-txt-wrapper">
+                        <p>Answer to your question:</p>
+                        <h2>It may be at your advantage.</h2>
+                        <p>About</p>
+                        <h2>Destiny, fortune, success, elevation, luck, felicity.</h2>
+                        <h2>The Mystic Ten Cats show that you have the most advantage.</h2>
+                        <h2>It could be for work, relationship, an offer or love. Take the opportunity and make the best of it.</h2>
+                    </div>
+                </main>
+                <main class="result result4">
+                    <img class="result-moon" src="/img/result-moon.svg" alt="moon">
+                    <p>Your fortune</p>
+                    <h1 class="result-title">The Watcher</h1>
+                    <div class="result-imgBox"><img src="/img/result4.svg" alt="resultImg"></div>
+
+                    <div class="result-txt-wrapper">
+                        <p>Answer to your question:</p>
+                        <h2>It may be at your advantage.</h2>
+                        <p>About</p>
+                        <h2>Reinforced solidarity.</h2>
+                        <h2>You are guided with support by the Watcher; watching over you and making sure you are on the right side.</h2>
+                        <h2>But do not steer too far away - for the Watcher can only be there momentarily.</h2>
+                    </div>
+                </main>
+                <main class="result result5">
+                    <img class="result-moon" src="/img/result-moon.svg" alt="moon">
+                    <p>Your fortune</p>
+                    <h1 class="result-title">Cresant Moon of Judgment</h1>
+                    <div class="result-imgBox"><img src="/img/result5.svg" alt="resultImg"></div>
+
+                    <div class="result-txt-wrapper">
+                        <p>Answer to your question:</p>
+                        <h2>It is not in your favour.</h2>
+                        <p>About</p>
+                        <h2>When the Cresant Moon card appears it could mean that you are allowing your imagination and emotions to take control of your decision making.</h2>
+                        <h2>There are some things you’ll have to take in precaution on your decisions, however don’t let it get you down.</h2>
+                        <h2>Try to focus and feel calmer. Be in charge of your own self and don’t try to feel too anxious on your decisions.</h2>
+                    </div>
+                </main>
+                <main class="result result6">
+                    <img class="result-moon" src="/img/result-moon.svg" alt="moon">
+                    <p>Your fortune</p>
+                    <h1 class="result-title">Seeker of Despair</h1>
+                    <div class="result-imgBox"><img src="/img/result6.svg" alt="resultImg"></div>
+
+                    <div class="result-txt-wrapper">
+                        <p>Answer to your question:</p>
+                        <h2>Be cautious.</h2>
+                        <p>About</p>
+                        <h2>You are edging towards the wrong path and it’s better to be safe than sorry.</h2>
+                        <h2>Only the ones who are tenacious may pass the wretch of thorns but it will come at a price.</h2>
+                        <h2>Do not worry about the outcome, for this may be to your advantage if you take heed.</h2>
+                    </div>
+                </main>
+                <main class="result result7">
+                    <img class="result-moon" src="/img/result-moon.svg" alt="moon">
+                    <p>Your fortune</p>
+                    <h1 class="result-title">The Serpent</h1>
+                    <div class="result-imgBox"><img src="/img/result7.svg" alt="resultImg"></div>
+
+                    <div class="result-txt-wrapper">
+                        <p>Answer to your question:</p>
+                        <h2>Be careful.</h2>
+                        <p>About</p>
+                        <h2>The Serpent delivers a message that you may be suffering because there are aspects of yourself that are wounded and still need tending.</h2>
+                        <h2>Now is the time for this. Perhaps you need to rest, meditate, and allow the knowledge to come to consciousness.</h2>
+                    </div>
+                </main>
+            </div>
+            <div class="bottom-wrap">
+                <button class="goHome-btn">Know another</button> 
+                <p>if you dare...</p>
+            </div>
+        </section>
+
+    </div>
+
+    
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
