@@ -157,7 +157,7 @@ section{
 /* Intro */
 .intro{
     height: 100%;
-    background-image: url(/img/Border.png);
+    background-image: url(./img/Border.png);
     background-size: 95% 95%;
     background-repeat: no-repeat;
     background-position: center;
@@ -714,7 +714,7 @@ section{
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(/img/thumb-bg.svg);
+    background-image: url(./img/thumb-bg.svg);
     background-repeat: no-repeat;
     background-size: contain;
     transform: scale(1.5);
